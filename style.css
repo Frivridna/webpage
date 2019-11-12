@@ -1,0 +1,59 @@
+* {
+
+    box-sizing: border-box;
+  
+    margin: 5px;
+  
+    padding: 3;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0, auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 380px;
+    grid-template-rows: auto;
+}
+
+.wrapper2 { 
+    width: 100%;
+    margin: 0, auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    grid-template-rows: auto;
+}
+
+body {
+    background-image: url("../img/background.png");
+    background-blend-mode: color-burn;
+    background-repeat: repeat-y;
+    background-position: sticky;
+    background-color: hsl(350, 100%, 88%);
+}
+
+p {
+
+    color: hsl(0, 100%, 0%);
+  
+    font-family: Signika, Arial, serif;
+  
+  }
+
+  @font-face {
+
+    font-family: 'Signika';
+  
+    font-style: normal;
+  
+    font-weight: 400;
+  
+    src: local("Signika"), local("Signika-Regular"), url(http://themes.googleusercontent.com/static/fonts/signika/v3/_M5k9_BZTkfaM2dnN0vNGw.woff) format("woff");
+  
+  }
+
+  h1, h2 {
+     text-shadow: 2px 2px hsl(330, 100%, 71%); 
+  }
+
